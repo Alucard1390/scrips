@@ -1,0 +1,1 @@
+python D:\scrips\promotion_sheet_auto\everyday_operation.py
