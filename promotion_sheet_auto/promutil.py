@@ -63,3 +63,17 @@ def refresh_and_save_excel(input_path, output_path):
         excel.Quit()
         # 释放 COM 对象
         del excel
+
+brand_info_list = []
+brand_info_sekkisei = {}
+brand_info_sekkisei["brand"] = "雪肌精"
+brand_info_sekkisei["account"] = "雪肌精官方旗舰店:李焕"
+brand_info_sekkisei["pwd"] = "LH17368904761"
+
+brand_info_alinamin = {}
+brand_info_alinamin["brand"] = "alinamin"
+brand_info_alinamin["account"] = "alinamin爱利纳明海外旗舰:李焕"
+brand_info_alinamin["pwd"] = "alinamin123"
+
+brand_info_list.append(brand_info_sekkisei)
+brand_info_list.append(brand_info_alinamin)
